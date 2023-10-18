@@ -65,10 +65,6 @@ Before using this project, ensure you have the following prerequisites installed
 - Pandas
 - Other dependencies (refer to the requirements.txt file)
 
-### Installation
-Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/cnn-news-semantic-search.git
    ```
 ## Usage
 ### Data Preprocessing
