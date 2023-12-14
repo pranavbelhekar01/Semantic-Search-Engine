@@ -13,8 +13,9 @@ This project includes the following key features:
 3. **Feature Extraction (Bag of Words)**: A Bag of Words (BoW) model is used to represent text as the occurrence of known words within a document. The `doc2bow` method in the Gensim dictionary is utilized to count the frequency of words in the corpus.
 
 4. **Build Tf-Idf and LSI Model**: The Term frequency-Inverse Document Frequency (Tf-Idf) model is employed to determine the importance of words in each document. After building the Tf-Idf model, it is passed to the Latent Semantic Indexing (LSI) model, where you can specify the number of features to create.
+   
 
-5. **Semantic Search**: Users can input a search query, and the model will return relevant news articles along with a "Relevance %" score, which represents the similarity between the query and the documents. Higher similarity scores indicate greater relevance.
+6. **Semantic Search**: Users can input a search query, and the model will return relevant news articles along with a "Relevance %" score, which represents the similarity between the query and the documents. Higher similarity scores indicate greater relevance.
 
 
 ---
